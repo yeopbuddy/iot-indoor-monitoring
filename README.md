@@ -33,8 +33,6 @@
 
 ---
 
----
-
 ## 🖼️ GUI 아키텍처
 
 ![GUI 아키텍처](https://i.ibb.co/XkG6SnJn/nodered-architecture.png)
