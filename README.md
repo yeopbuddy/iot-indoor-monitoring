@@ -68,7 +68,7 @@
 ### 🔄 Node-RED 플로우
 
 * `serial in` → `Function node` → 센서 분리 및 파싱 → 대시보드 시각화
-* 기상청 API 호출(단기예보 - 초단기실황): `http request`
+* 기상청 API 호출(단기예보 - 초단기실황, 중기예보): `http request`
 * 옷차림/우산 추천, 실내 상태 텍스트 출력 (Function 노드로 구현)
 
 ### 📊 Node-RED 대시보드 UI
