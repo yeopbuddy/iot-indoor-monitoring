@@ -1,0 +1,1474 @@
+[
+    {
+        "id": "98c3ce7cbc572f30",
+        "type": "tab",
+        "label": "플로우 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2a8d565955f2505b",
+        "type": "ui_group",
+        "name": "Temperature, Humidity info.",
+        "tab": "66138a4816ca27e2",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "a3fc74c8d86ac821",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "054232557a22cb1a",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#00b500",
+                "baseFont": "Impact,Impact,Charcoal,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "project1",
+                "default": "#4B7930",
+                "baseColor": "#464a38",
+                "baseFont": "Impact,Impact,Charcoal,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#00b500",
+                    "value": "#464a38",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#48690d",
+                    "edited": true
+                },
+                "page-backgroundColor": {
+                    "value": "#464a38",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#a4c226",
+                    "edited": true
+                },
+                "group-textColor": {
+                    "value": "#739c06",
+                    "edited": true
+                },
+                "group-borderColor": {
+                    "value": "#739c06",
+                    "edited": true
+                },
+                "group-backgroundColor": {
+                    "value": "#739c06",
+                    "edited": true
+                },
+                "widget-textColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "widget-backgroundColor": {
+                    "value": "#48690d",
+                    "edited": true
+                },
+                "widget-borderColor": {
+                    "value": "#48690d",
+                    "edited": true
+                },
+                "base-font": {
+                    "value": "Impact,Impact,Charcoal,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": " myproject",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "d4fb3910b37d41fc",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "a3fc74c8d86ac821",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "66138a4816ca27e2",
+        "type": "ui_tab",
+        "name": "Tab 3",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6bb2dba7664a2063",
+        "type": "ui_group",
+        "name": "Wind, Rain info",
+        "tab": "66138a4816ca27e2",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f947cf97d683b1bb",
+        "type": "ui_group",
+        "name": "Outfit Recommend",
+        "tab": "66138a4816ca27e2",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1f0968b5db805715",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "d78a0ff072a1c75e",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d78a0ff072a1c75e",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ed791c5a41c52fa7",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.emqx.io",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "d7fd21414c6b6cc4",
+        "type": "mqtt-broker",
+        "name": "room/lamp",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "0223e60c91ea9150",
+        "type": "ui_group",
+        "name": "Home Tepertature, Humidity info",
+        "tab": "66138a4816ca27e2",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d6dbef209e0a04b1",
+        "type": "serial-port",
+        "name": "",
+        "serialport": "COM4",
+        "serialbaud": "115200",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "67f46e7f642ce5bd",
+        "type": "http request",
+        "z": "98c3ce7cbc572f30",
+        "name": "",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 630,
+        "y": 520,
+        "wires": [
+            [
+                "5886a1182ff71fef",
+                "bab75f862330f343",
+                "84e901c71f7953b3",
+                "aa7793b1538dcaaf",
+                "369650a36a055713"
+            ]
+        ]
+    },
+    {
+        "id": "bab75f862330f343",
+        "type": "ui_gauge",
+        "z": "98c3ce7cbc572f30",
+        "name": "",
+        "group": "2a8d565955f2505b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "수원시 팔달구 온도",
+        "label": "C",
+        "format": "{{payload.response.body.items.item[3].obsrValue}}",
+        "min": "-20",
+        "max": "35",
+        "colors": [
+            "#00b500",
+            "#00b500",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 850,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "84e901c71f7953b3",
+        "type": "ui_gauge",
+        "z": "98c3ce7cbc572f30",
+        "name": "",
+        "group": "2a8d565955f2505b",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "수원시 팔달구 습도",
+        "label": "%",
+        "format": "{{payload.response.body.items.item[1].obsrValue}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#00b500",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 850,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "aa7793b1538dcaaf",
+        "type": "ui_gauge",
+        "z": "98c3ce7cbc572f30",
+        "name": "",
+        "group": "6bb2dba7664a2063",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "풍속",
+        "label": "units",
+        "format": "{{payload.response.body.items.item[7].obsrValue}}",
+        "min": 0,
+        "max": "4",
+        "colors": [
+            "#00b500",
+            "#00b500",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 810,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "369650a36a055713",
+        "type": "function",
+        "z": "98c3ce7cbc572f30",
+        "name": "강수형태 to 날씨",
+        "func": "// raininfo = msg.payload.response.body.items.item[0].obsrValue;\n\nif (msg.payload.response.body.items.item[0].obsrValue == 0 ){\n    msg.payload = \"쨍쨍\";\n    return msg;\n}\nelse{ \n    msg.payload = \"비옴\";\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 680,
+        "wires": [
+            [
+                "a744ce4fd6579160"
+            ]
+        ]
+    },
+    {
+        "id": "a744ce4fd6579160",
+        "type": "ui_text",
+        "z": "98c3ce7cbc572f30",
+        "group": "6bb2dba7664a2063",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "날씨는?",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1000,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "5886a1182ff71fef",
+        "type": "function",
+        "z": "98c3ce7cbc572f30",
+        "name": "온도 to 옷차림",
+        "func": "// int temp = msg.payload.response.body.items.item[3].obsrValue;\nif(msg.payload.response.body.items.item[3].obsrValue < 5){\n    msg.payload = \"야상, 패딩, 목도리, 핫팩\";\n    return msg;\n}\nelse if(5<= msg.payload.response.body.items.item[3].obsrValue && msg.payload.response.body.items.item[3].obsrValue <= 9){\n    msg.payload = \"두꺼운 아우터, 코트나 가죽자켓, 얇은 패딩 등 두께감 있는 아우터\";\n    return msg;\n}\nelse if (10 <= msg.payload.response.body.items.item[3].obsrValue && msg.payload.response.body.items.item[3].obsrValue <= 11) {\n    msg.payload = \"블레이져, 얇은 울 자켓, 너무 두껍지 않은 패딩류, 얇은 아우터에 기모가 들어간 두꺼운 이너\";\n    return msg;\n}\nelse if (12 <=msg.payload.response.body.items.item[3].obsrValue && msg.payload.response.body.items.item[3].obsrValue <= 16) {\n    msg.payload = \"얇은 블루종, 면 자켓, 바람막이, 얇은 블레이져, 니트 아우터\";\n    return msg;\n}\nelse if (17 <= msg.payload.response.body.items.item[3].obsrValue&& msg.payload.response.body.items.item[3].obsrValue<= 19) {\n    msg.payload = \"아주 얇은 아우터, 맨투맨, 후드티, 니트 집업, 긴팔 니트\";\n    return msg;\n}\nelse if (20 <= msg.payload.response.body.items.item[3].obsrValue&& msg.payload.response.body.items.item[3].obsrValue<= 22) {\n    msg.payload = \"긴팔과 반바지를 활용\";\n    return msg;\n}\nelse if (23 <= msg.payload.response.body.items.item[3].obsrValue&& msg.payload.response.body.items.item[3].obsrValue<= 26) {\n    msg.payload = \"쿨링 원사나 린넨 소재 등 여름에 적합한 옷, 통풍이 잘되는 신발\";\n    return msg;\n}\nelse if (27 <= msg.payload.response.body.items.item[3].obsrValue) {\n    msg.payload = \"최대한 가볍고 짧은 옷, 기능성 원단 옷 추천\";\n    return msg;\n}\nelse{\n    msg.payload = \"zz\";\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 380,
+        "wires": [
+            [
+                "d4b7ad1d34a14aba"
+            ]
+        ]
+    },
+    {
+        "id": "d4b7ad1d34a14aba",
+        "type": "ui_text",
+        "z": "98c3ce7cbc572f30",
+        "group": "6bb2dba7664a2063",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "옷은?",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1010,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "b325e267b5f8f55b",
+        "type": "function",
+        "z": "98c3ce7cbc572f30",
+        "name": "split temp/humi/gas data",
+        "func": "var datas = msg.payload.split(',') \nreturn {\n    payload:{\n        temp : datas[0],\n        humi : datas[1],\n        gas : datas[2],\n        //motion : datas[3],\n    }\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 40,
+        "wires": [
+            [
+                "d45ba0e73d679f3a",
+                "bf366362efc440f2",
+                "554c26ba66d057c8"
+            ]
+        ]
+    },
+    {
+        "id": "bf366362efc440f2",
+        "type": "ui_gauge",
+        "z": "98c3ce7cbc572f30",
+        "name": "",
+        "group": "0223e60c91ea9150",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "실내온도",
+        "label": "units",
+        "format": "{{msg.payload.temp}}",
+        "min": "-20",
+        "max": "35",
+        "colors": [
+            "#00b500",
+            "#00b500",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 780,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "d45ba0e73d679f3a",
+        "type": "ui_gauge",
+        "z": "98c3ce7cbc572f30",
+        "name": "",
+        "group": "f947cf97d683b1bb",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "실내습도",
+        "label": "units",
+        "format": "{{msg.payload.humi}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#00b500",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 780,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "c880e8cc747ee1a8",
+        "type": "serial in",
+        "z": "98c3ce7cbc572f30",
+        "name": "Kepler-ESP-A",
+        "serial": "d6dbef209e0a04b1",
+        "x": 290,
+        "y": 120,
+        "wires": [
+            [
+                "b325e267b5f8f55b",
+                "c55d7dc7a7f7e0ec",
+                "801c88a167b46741",
+                "ac3d2f9c1db8ae4b",
+                "95ada4f3cc10b453"
+            ]
+        ]
+    },
+    {
+        "id": "415ae9678b529e99",
+        "type": "inject",
+        "z": "98c3ce7cbc572f30",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 360,
+        "y": 1080,
+        "wires": [
+            [
+                "20210dcc6759e369"
+            ]
+        ]
+    },
+    {
+        "id": "20210dcc6759e369",
+        "type": "function",
+        "z": "98c3ce7cbc572f30",
+        "name": "time",
+        "func": "var timeAsString = new Date().toLocaleTimeString();\nvar ohoz = timeAsString.split(' ');\nvar data = ohoz[1].split(':');\nif (ohoz[0] == '오전') {\n    msg.payload = '0' + data[0] + data[1];\n} // 만약 오전 7:52일때 752로 출력되면 0752로 바꿔야함\nelse if (ohoz[0] == '오후') {\n    data[0] = Number(data[0]) + 12;\n    msg.payload = data[0] + data[1];\n}\n\n// data[0]은 시간, data[1]은 분을 따짐.\n// data[1]에 대한 case : 10분 이후일 경우, 이전일 경우\n// data[0]에 대한 case : 2시 이전~5시\n\nif (parseInt(data[1]) <= 10) { // 10분 이전일 경우 > 이전 시간의 데이터를 가져온다\n    switch (parseInt(data[0])) {\n\n        case 3:\n        case 4:\n        case 5:\n            msg.payload = '0200';\n            break;\n\n        case 6:\n        case 7:\n        case 8:\n            msg.payload = '0500';\n            break;\n\n        case 9:\n        case 10:\n        case 11:\n            msg.payload = '0800';\n            break;\n\n        case 12:\n        case 13:\n        case 14:\n            msg.payload = '1100';\n            break;\n\n        case 15:\n        case 16:\n        case 17:\n            msg.payload = '1400';\n            break;\n\n        case 18:\n        case 19:\n        case 20:\n            msg.payload = '1700';\n            break;\n\n        case 21:\n        case 22:\n        case 23:\n            msg.payload = '2000';\n            break;\n\n        //default:\n    }\n}\nelse { // 10분~59분의 경우 : 현재 시간의 데이터를 가져옴\n    switch (parseInt(data[0])) {\n\n        case 2:\n        case 3:\n        case 4:\n            msg.payload = '0200';\n            break;\n\n        case 5:\n        case 6:\n        case 7:\n            msg.payload = '0500';\n            break;\n\n        case 8:\n        case 9:\n        case 10:\n            msg.payload = '0800';\n            break;\n\n        case 11:\n        case 12:\n        case 13:\n            msg.payload = '1100';\n            break;\n\n        case 14:\n        case 15:\n        case 16:\n            msg.payload = '1400';\n            break;\n\n        case 17:\n        case 18:\n        case 19:\n            msg.payload = '1700';\n            break;\n\n        case 20:\n        case 21:\n        case 22:\n            msg.payload = '2000';\n            break;\n\n        case 23:\n            msg.payload = '2300';\n            break;\n        //default:\n    }\n}\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 1080,
+        "wires": [
+            [
+                "60d4f3331da677ac"
+            ]
+        ]
+    },
+    {
+        "id": "60d4f3331da677ac",
+        "type": "debug",
+        "z": "98c3ce7cbc572f30",
+        "name": "1700",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "c371cb3b991bcbc1",
+        "type": "inject",
+        "z": "98c3ce7cbc572f30",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 360,
+        "y": 1140,
+        "wires": [
+            [
+                "aaebbb163b727046"
+            ]
+        ]
+    },
+    {
+        "id": "aaebbb163b727046",
+        "type": "function",
+        "z": "98c3ce7cbc572f30",
+        "name": "msg.url",
+        "func": "var dateAsString = new Date().toLocaleDateString();\nvar datas = dateAsString.split('. ');\n\nif (Number(datas[2]) < 10) { // 10일보다 빠를 경우, 형식변환\n    datas[2] = '0' + datas[2];\n} // XX월 7일 : XX 7 > XX07\n\nif (Number(datas[1]) < 10) { // 10월보다 빠를경우, 형식변환\n    datas[1] = '0' + datas[1];\n}// 9월 XX일: 9XX > 09XX\n\nvar str = datas[0]+datas[1]+datas[2];\nvar rt = str[0];\nfor (let index = 1; index < str.length-1; index++) {\n    rt = rt + str[index];\n    \n}\n\nvar timeAsString = new Date().toLocaleTimeString();\nvar ohoz = timeAsString.split(' ');\nvar data = ohoz[1].split(':');\nif (ohoz[0] == '오전') {\n    msg.payload = '0' + data[0] + data[1];\n} // 만약 오전 7:52일때 752로 출력되면 0752로 바꿔야함\nelse if (ohoz[0] == '오후') {\n    data[0] = Number(data[0]) + 12;\n    msg.payload = data[0] + data[1];\n}\n\n// data[0]은 시간, data[1]은 분을 따짐.\n// data[1]에 대한 case : 10분 이후일 경우, 이전일 경우\n// data[0]에 대한 case : 2시 이전~5시\n\nif (parseInt(data[1]) <= 10) { // 10분 이전일 경우 > 이전 시간의 데이터를 가져온다\n    switch (parseInt(data[0])) {\n\n        case 3:\n        case 4:\n        case 5:\n            msg.payload = '0200';\n            break;\n\n        case 6:\n        case 7:\n        case 8:\n            msg.payload = '0500';\n            break;\n\n        case 9:\n        case 10:\n        case 11:\n            msg.payload = '0800';\n            break;\n\n        case 12:\n        case 13:\n        case 14:\n            msg.payload = '1100';\n            break;\n\n        case 15:\n        case 16:\n        case 17:\n            msg.payload = '1400';\n            break;\n\n        case 18:\n        case 19:\n        case 20:\n            msg.payload = '1700';\n            break;\n\n        case 21:\n        case 22:\n        case 23:\n            msg.payload = '2000';\n            break;\n\n        //default:\n    }\n}\nelse { // 10분~59분의 경우 : 현재 시간의 데이터를 가져옴\n    switch (parseInt(data[0])) {\n\n        case 2:\n        case 3:\n        case 4:\n            msg.payload = '0200';\n            break;\n\n        case 5:\n        case 6:\n        case 7:\n            msg.payload = '0500';\n            break;\n\n        case 8:\n        case 9:\n        case 10:\n            msg.payload = '0800';\n            break;\n\n        case 11:\n        case 12:\n        case 13:\n            msg.payload = '1100';\n            break;\n\n        case 14:\n        case 15:\n        case 16:\n            msg.payload = '1400';\n            break;\n\n        case 17:\n        case 18:\n        case 19:\n            msg.payload = '1700';\n            break;\n\n        case 20:\n        case 21:\n        case 22:\n            msg.payload = '2000';\n            break;\n\n        case 23:\n            msg.payload = '2300';\n            break;\n        //default:\n    }\n}\n\nmsg.url = \"https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?serviceKey=hkqBSadVD%2F2ybxDvDKGfjBJwkRt49i6svd9tvaUUCa4nJ3bR%2Bs4nzAppnHH3KQDp8cXssHOvbVr%2BcmfTTaLqCQ%3D%3D&pageNo=1&numOfRows=1000&dataType=JSON&\"+\"base_date=\"+ rt + \"&base_time=\" + msg.payload + \"&nx=61&ny=121\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 1140,
+        "wires": [
+            [
+                "7551d774b90a3254"
+            ]
+        ]
+    },
+    {
+        "id": "7551d774b90a3254",
+        "type": "debug",
+        "z": "98c3ce7cbc572f30",
+        "name": "20231203",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "url",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "fbfea8129abde6fc",
+        "type": "inject",
+        "z": "98c3ce7cbc572f30",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 360,
+        "y": 1260,
+        "wires": [
+            [
+                "c5b40dcb05a80479"
+            ]
+        ]
+    },
+    {
+        "id": "c5b40dcb05a80479",
+        "type": "function",
+        "z": "98c3ce7cbc572f30",
+        "name": "time",
+        "func": "var timeAsString = new Date().toLocaleTimeString();\nvar ohoz = timeAsString.split(' ');\nvar data = ohoz[1].split(':');\nif(ohoz[0] == '오전'){\n    msg.payload = '0'+data[0] + data[1];\n} // 만약 오전 7:52일때 752로 출력되면 0752로 바꿔야함\nelse if (ohoz[0] == '오후') {\n    data[0] = Number(data[0])+12;\n    msg.payload = data[0] + data[1];\n}\n\n// data[0]은 시간, data[1]은 분을 따짐.\n// data[1]에 대한 case : 10분 이후일 경우, 이전일 경우\n// data[0]에 대한 case : 2시 이전~5시\n\nif(parseInt(data[1]) <= 40){ // 40분 이전일 경우 > 이전 시간의 데이터를 가져온다\n    switch(parseInt(data[0])){\n        case 1:\n            msg.payload = '0000';\n            break;\n        case 2:\n            msg.payload = '0100';\n            break;\n        case 3:\n            msg.payload = '0200';\n            break;\n        case 4:\n            msg.payload = '0300';\n            break;\n        case 5:\n            msg.payload = '0400';\n            break;\n        case 6:\n            msg.payload = '0500';\n            break;\n        case 7:\n            msg.payload = '0600';\n            break;\n        case 8:\n            msg.payload = '0700';\n            break;\n        case 9:\n            msg.payload = '0800';\n            break;\n        case 10:\n            msg.payload = '0900';\n            break;\n        case 11:\n            msg.payload = '1000';\n            break;\n        case 12:\n            msg.payload = '1100';\n            break;\n        case 13:\n            msg.payload = '1200';\n            break;\n        case 14:\n            msg.payload = '1300';\n            break;\n        case 15:\n            msg.payload = '1400';\n            break;\n        case 16:\n            msg.payload = '1500';\n            break;\n        case 17:\n            msg.payload = '1600';\n            break;\n        case 18:\n            msg.payload = '1700';\n            break;\n        case 19:\n            msg.payload = '1800';\n            break;\n        case 20:\n            msg.payload = '1900';\n            break;\n        case 21:\n            msg.payload = '2000';\n            break;\n        case 22:\n            msg.payload = '2100';\n            break;\n        case 23:\n            msg.payload = '2200';\n            break;\n\n        //default:\n    }\n}\nelse{ // 10분~59분의 경우 : 현재 시간의 데이터를 가져옴\n    switch(parseInt(data[0])){\n        \n        case 1:\n            msg.payload = '0100';\n            break;\n        case 2:\n            msg.payload = '0200';\n            break;\n        case 3:\n            msg.payload = '0300';\n            break;\n        case 4:\n            msg.payload = '0400';\n            break;\n        case 5:\n            msg.payload = '0500';\n            break;\n        case 6:\n            msg.payload = '0600';\n            break;\n        case 7:\n            msg.payload = '0700';\n            break;\n        case 8:\n            msg.payload = '0800';\n            break;\n        case 9:\n            msg.payload = '0900';\n            break;\n        case 10:\n            msg.payload = '1000';\n            break;\n        case 11:\n            msg.payload = '1100';\n            break;\n        case 12:\n            msg.payload = '1200';\n            break;\n        case 13:\n            msg.payload = '1300';\n            break;\n        case 14:\n            msg.payload = '1400';\n            break;\n        case 15:\n            msg.payload = '1500';\n            break;\n        case 16:\n            msg.payload = '1600';\n            break;\n        case 17:\n            msg.payload = '1700';\n            break;\n        case 18:\n            msg.payload = '1800';\n            break;\n        case 19:\n            msg.payload = '1900';\n            break;\n        case 20:\n            msg.payload = '2000';\n            break;\n        case 21:\n            msg.payload = '2100';\n            break;\n        case 22:\n            msg.payload = '2200';\n            break;\n        case 23:\n            msg.payload = '2300';\n            break;\n        //default:\n    }\n}\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 1260,
+        "wires": [
+            [
+                "78566d2c2e9decdc"
+            ]
+        ]
+    },
+    {
+        "id": "78566d2c2e9decdc",
+        "type": "debug",
+        "z": "98c3ce7cbc572f30",
+        "name": "1700",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "8e61be910438acee",
+        "type": "inject",
+        "z": "98c3ce7cbc572f30",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 360,
+        "y": 1320,
+        "wires": [
+            [
+                "f8f97a113895489c"
+            ]
+        ]
+    },
+    {
+        "id": "f8f97a113895489c",
+        "type": "function",
+        "z": "98c3ce7cbc572f30",
+        "name": "msg.url",
+        "func": "var dateAsString = new Date().toLocaleDateString();\nvar datas = dateAsString.split('. ');\n\nif (Number(datas[2]) < 10) { // 10일보다 빠를 경우, 형식변환\n    datas[2] = '0' + datas[2];\n} // XX월 7일 : XX 7 > XX07\n\nif (Number(datas[1]) < 10) { // 10월보다 빠를경우, 형식변환\n    datas[1] = '0' + datas[1];\n}// 9월 XX일: 9XX > 09XX\n\nvar str = datas[0]+datas[1]+datas[2];\nvar rt = str[0];\nfor (let index = 1; index < str.length-1; index++) {\n    rt = rt + str[index]; // date 8자리 정보\n    \n}\nmsg.payload = rt;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 1320,
+        "wires": [
+            [
+                "960963757bee1c52"
+            ]
+        ]
+    },
+    {
+        "id": "960963757bee1c52",
+        "type": "debug",
+        "z": "98c3ce7cbc572f30",
+        "name": "20231203",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "f470ae371c7833ba",
+        "type": "comment",
+        "z": "98c3ce7cbc572f30",
+        "name": "강수확률",
+        "info": "",
+        "x": 160,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "e1a2805a5390558e",
+        "type": "comment",
+        "z": "98c3ce7cbc572f30",
+        "name": "나머지(많음)",
+        "info": "",
+        "x": 190,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "554c26ba66d057c8",
+        "type": "ui_gauge",
+        "z": "98c3ce7cbc572f30",
+        "name": "",
+        "group": "0223e60c91ea9150",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "실내가스농도",
+        "label": "units",
+        "format": "{{msg.payload.gas}}",
+        "min": "1000",
+        "max": "2000",
+        "colors": [
+            "#00b500",
+            "#00b500",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 800,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "179ed0c1eee7dfa2",
+        "type": "ui_chart",
+        "z": "98c3ce7cbc572f30",
+        "name": "",
+        "group": "f947cf97d683b1bb",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "실내 motion state",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 810,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c55d7dc7a7f7e0ec",
+        "type": "function",
+        "z": "98c3ce7cbc572f30",
+        "name": "split motion data",
+        "func": "var datas = msg.payload.split(',');\nmsg.payload = datas[3];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 100,
+        "wires": [
+            [
+                "179ed0c1eee7dfa2"
+            ]
+        ]
+    },
+    {
+        "id": "0d9f14ff36079383",
+        "type": "inject",
+        "z": "98c3ce7cbc572f30",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "*/1 3-22 * * *",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 270,
+        "y": 780,
+        "wires": [
+            [
+                "282af4d30ac48363"
+            ]
+        ]
+    },
+    {
+        "id": "a14e06ce95a82ba5",
+        "type": "inject",
+        "z": "98c3ce7cbc572f30",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "*/1 3-22 * * *",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 270,
+        "y": 520,
+        "wires": [
+            [
+                "5b1987e0efc58db7"
+            ]
+        ]
+    },
+    {
+        "id": "6815274c7726be7a",
+        "type": "function",
+        "z": "98c3ce7cbc572f30",
+        "name": "msg.url",
+        "func": "var dateAsString = new Date().toLocaleDateString();\nvar datas = dateAsString.split('. ');\n\nif (Number(datas[2]) < 10) { // 10일보다 빠를 경우, 형식변환\n    datas[2] = '0' + datas[2];\n} // XX월 7일 : XX 7 > XX07\n\nif (Number(datas[1]) < 10) { // 10월보다 빠를경우, 형식변환\n    datas[1] = '0' + datas[1];\n}// 9월 XX일: 9XX > 09XX\n\nvar timeAsString = new Date().toLocaleTimeString();\nvar ohoz = timeAsString.split(' ');\nvar data = ohoz[1].split(':');\nif(ohoz[0] == '오전'){\n    msg.payload = '0'+data[0] + data[1];\n} // 만약 오전 7:52일때 752로 출력되면 0752로 바꿔야함\nelse if (ohoz[0] == '오후') {\n    data[0] = Number(data[0])+12;\n    msg.payload = data[0] + data[1];\n}\n\n// data[0]은 시간, data[1]은 분을 따짐.\n// data[1]에 대한 case : 10분 이후일 경우, 이전일 경우\n// data[0]에 대한 case : 2시 이전~5시\n\nif(parseInt(data[1]) <= 40){ // 40분 이전일 경우 > 이전 시간의 데이터를 가져온다\n    switch(parseInt(data[0])){\n        case 1:\n            msg.payload = '0000';\n            break;\n        case 2:\n            msg.payload = '0100';\n            break;\n        case 3:\n            msg.payload = '0200';\n            break;\n        case 4:\n            msg.payload = '0300';\n            break;\n        case 5:\n            msg.payload = '0400';\n            break;\n        case 6:\n            msg.payload = '0500';\n            break;\n        case 7:\n            msg.payload = '0600';\n            break;\n        case 8:\n            msg.payload = '0700';\n            break;\n        case 9:\n            msg.payload = '0800';\n            break;\n        case 10:\n            msg.payload = '0900';\n            break;\n        case 11:\n            msg.payload = '1000';\n            break;\n        case 12:\n            msg.payload = '1100';\n            break;\n        case 13:\n            msg.payload = '1200';\n            break;\n        case 14:\n            msg.payload = '1300';\n            break;\n        case 15:\n            msg.payload = '1400';\n            break;\n        case 16:\n            msg.payload = '1500';\n            break;\n        case 17:\n            msg.payload = '1600';\n            break;\n        case 18:\n            msg.payload = '1700';\n            break;\n        case 19:\n            msg.payload = '1800';\n            break;\n        case 20:\n            msg.payload = '1900';\n            break;\n        case 21:\n            msg.payload = '2000';\n            break;\n        case 22:\n            msg.payload = '2100';\n            break;\n        case 23:\n            msg.payload = '2200';\n            break;\n\n        //default:\n    }\n}\nelse{ // 10분~59분의 경우 : 현재 시간의 데이터를 가져옴\n    switch(parseInt(data[0])){\n        \n        case 1:\n            msg.payload = '0100';\n            break;\n        case 2:\n            msg.payload = '0200';\n            break;\n        case 3:\n            msg.payload = '0300';\n            break;\n        case 4:\n            msg.payload = '0400';\n            break;\n        case 5:\n            msg.payload = '0500';\n            break;\n        case 6:\n            msg.payload = '0600';\n            break;\n        case 7:\n            msg.payload = '0700';\n            break;\n        case 8:\n            msg.payload = '0800';\n            break;\n        case 9:\n            msg.payload = '0900';\n            break;\n        case 10:\n            msg.payload = '1000';\n            break;\n        case 11:\n            msg.payload = '1100';\n            break;\n        case 12:\n            msg.payload = '1200';\n            break;\n        case 13:\n            msg.payload = '1300';\n            break;\n        case 14:\n            msg.payload = '1400';\n            break;\n        case 15:\n            msg.payload = '1500';\n            break;\n        case 16:\n            msg.payload = '1600';\n            break;\n        case 17:\n            msg.payload = '1700';\n            break;\n        case 18:\n            msg.payload = '1800';\n            break;\n        case 19:\n            msg.payload = '1900';\n            break;\n        case 20:\n            msg.payload = '2000';\n            break;\n        case 21:\n            msg.payload = '2100';\n            break;\n        case 22:\n            msg.payload = '2200';\n            break;\n        case 23:\n            msg.payload = '2300';\n            break;\n        //default:\n    }\n}\n\nvar str = datas[0]+datas[1]+datas[2];\nvar rt = str[0];\nfor (let index = 1; index < str.length-1; index++) {\n    rt = rt + str[index]; // date 8자리 정보\n    \n}\nmsg.url = \"https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtNcst?serviceKey=hkqBSadVD%2F2ybxDvDKGfjBJwkRt49i6svd9tvaUUCa4nJ3bR%2Bs4nzAppnHH3KQDp8cXssHOvbVr%2BcmfTTaLqCQ%3D%3D&pageNo=1&numOfRows=1000&dataType=JSON&\" + \"base_date=\" + rt + \"&base_time=\" + msg.payload + \"&nx=61&ny=121\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 1380,
+        "wires": [
+            [
+                "87b1b243e0f2a169"
+            ]
+        ]
+    },
+    {
+        "id": "a93a12b39797a878",
+        "type": "inject",
+        "z": "98c3ce7cbc572f30",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 360,
+        "y": 1380,
+        "wires": [
+            [
+                "6815274c7726be7a"
+            ]
+        ]
+    },
+    {
+        "id": "87b1b243e0f2a169",
+        "type": "debug",
+        "z": "98c3ce7cbc572f30",
+        "name": "20231203",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "url",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "5b1987e0efc58db7",
+        "type": "function",
+        "z": "98c3ce7cbc572f30",
+        "name": "msg.url",
+        "func": "var dateAsString = new Date().toLocaleDateString();\nvar datas = dateAsString.split('. ');\n\nif (Number(datas[2]) < 10) { // 10일보다 빠를 경우, 형식변환\n    datas[2] = '0' + datas[2];\n} // XX월 7일 : XX 7 > XX07\n\nif (Number(datas[1]) < 10) { // 10월보다 빠를경우, 형식변환\n    datas[1] = '0' + datas[1];\n}// 9월 XX일: 9XX > 09XX\n\nvar timeAsString = new Date().toLocaleTimeString();\nvar ohoz = timeAsString.split(' ');\nvar data = ohoz[1].split(':');\nif(ohoz[0] == '오전'){\n    msg.payload = '0'+data[0] + data[1];\n} // 만약 오전 7:52일때 752로 출력되면 0752로 바꿔야함\nelse if (ohoz[0] == '오후') {\n    data[0] = Number(data[0])+12;\n    msg.payload = data[0] + data[1];\n}\n\n// data[0]은 시간, data[1]은 분을 따짐.\n// data[1]에 대한 case : 10분 이후일 경우, 이전일 경우\n// data[0]에 대한 case : 2시 이전~5시\n\nif(parseInt(data[1]) <= 40){ // 40분 이전일 경우 > 이전 시간의 데이터를 가져온다\n    switch(parseInt(data[0])){\n        case 1:\n            msg.payload = '0000';\n            break;\n        case 2:\n            msg.payload = '0100';\n            break;\n        case 3:\n            msg.payload = '0200';\n            break;\n        case 4:\n            msg.payload = '0300';\n            break;\n        case 5:\n            msg.payload = '0400';\n            break;\n        case 6:\n            msg.payload = '0500';\n            break;\n        case 7:\n            msg.payload = '0600';\n            break;\n        case 8:\n            msg.payload = '0700';\n            break;\n        case 9:\n            msg.payload = '0800';\n            break;\n        case 10:\n            msg.payload = '0900';\n            break;\n        case 11:\n            msg.payload = '1000';\n            break;\n        case 12:\n            msg.payload = '1100';\n            break;\n        case 13:\n            msg.payload = '1200';\n            break;\n        case 14:\n            msg.payload = '1300';\n            break;\n        case 15:\n            msg.payload = '1400';\n            break;\n        case 16:\n            msg.payload = '1500';\n            break;\n        case 17:\n            msg.payload = '1600';\n            break;\n        case 18:\n            msg.payload = '1700';\n            break;\n        case 19:\n            msg.payload = '1800';\n            break;\n        case 20:\n            msg.payload = '1900';\n            break;\n        case 21:\n            msg.payload = '2000';\n            break;\n        case 22:\n            msg.payload = '2100';\n            break;\n        case 23:\n            msg.payload = '2200';\n            break;\n\n        //default:\n    }\n}\nelse{ // 41분~59분의 경우 : 현재 시간의 데이터를 가져옴\n    switch(parseInt(data[0])){\n        \n        case 1:\n            msg.payload = '0100';\n            break;\n        case 2:\n            msg.payload = '0200';\n            break;\n        case 3:\n            msg.payload = '0300';\n            break;\n        case 4:\n            msg.payload = '0400';\n            break;\n        case 5:\n            msg.payload = '0500';\n            break;\n        case 6:\n            msg.payload = '0600';\n            break;\n        case 7:\n            msg.payload = '0700';\n            break;\n        case 8:\n            msg.payload = '0800';\n            break;\n        case 9:\n            msg.payload = '0900';\n            break;\n        case 10:\n            msg.payload = '1000';\n            break;\n        case 11:\n            msg.payload = '1100';\n            break;\n        case 12:\n            msg.payload = '1200';\n            break;\n        case 13:\n            msg.payload = '1300';\n            break;\n        case 14:\n            msg.payload = '1400';\n            break;\n        case 15:\n            msg.payload = '1500';\n            break;\n        case 16:\n            msg.payload = '1600';\n            break;\n        case 17:\n            msg.payload = '1700';\n            break;\n        case 18:\n            msg.payload = '1800';\n            break;\n        case 19:\n            msg.payload = '1900';\n            break;\n        case 20:\n            msg.payload = '2000';\n            break;\n        case 21:\n            msg.payload = '2100';\n            break;\n        case 22:\n            msg.payload = '2200';\n            break;\n        case 23:\n            msg.payload = '2300';\n            break;\n        //default:\n    }\n}\n\nvar str = datas[0]+datas[1]+datas[2];\nvar rt = str[0];\nfor (let index = 1; index < str.length-1; index++) {\n    rt = rt + str[index]; // date 8자리 정보\n    \n}\nmsg.method = \"GET\" // get\nmsg.url = \"https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtNcst?serviceKey=hkqBSadVD%2F2ybxDvDKGfjBJwkRt49i6svd9tvaUUCa4nJ3bR%2Bs4nzAppnHH3KQDp8cXssHOvbVr%2BcmfTTaLqCQ%3D%3D&pageNo=1&numOfRows=1000&dataType=JSON&\" + \"base_date=\" + rt + \"&base_time=\" + msg.payload + \"&nx=61&ny=121\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 520,
+        "wires": [
+            [
+                "67f46e7f642ce5bd"
+            ]
+        ]
+    },
+    {
+        "id": "282af4d30ac48363",
+        "type": "function",
+        "z": "98c3ce7cbc572f30",
+        "name": "msg.url",
+        "func": "var dateAsString = new Date().toLocaleDateString();\nvar datas = dateAsString.split('. ');\n\nif (Number(datas[2]) < 10) { // 10일보다 빠를 경우, 형식변환\n    datas[2] = '0' + datas[2];\n} // XX월 7일 : XX 7 > XX07\n\nif (Number(datas[1]) < 10) { // 10월보다 빠를경우, 형식변환\n    datas[1] = '0' + datas[1];\n}// 9월 XX일: 9XX > 09XX\n\nvar str = datas[0]+datas[1]+datas[2];\nvar rt = str[0];\nfor (let index = 1; index < str.length-1; index++) {\n    rt = rt + str[index];\n    \n}\n\nvar timeAsString = new Date().toLocaleTimeString();\nvar ohoz = timeAsString.split(' ');\nvar data = ohoz[1].split(':');\nif (ohoz[0] == '오전') {\n    msg.payload = '0' + data[0] + data[1];\n} // 만약 오전 7:52일때 752로 출력되면 0752로 바꿔야함\nelse if (ohoz[0] == '오후') {\n    data[0] = Number(data[0]) + 12;\n    msg.payload = data[0] + data[1];\n}\n\n// data[0]은 시간, data[1]은 분을 따짐.\n// data[1]에 대한 case : 10분 이후일 경우, 이전일 경우\n// data[0]에 대한 case : 2시 이전~5시\n\nif (parseInt(data[1]) <= 10) { // 10분 이전일 경우 > 이전 시간의 데이터를 가져온다\n    switch (parseInt(data[0])) {\n\n        case 3:\n        case 4:\n        case 5:\n            msg.payload = '0200';\n            break;\n\n        case 6:\n        case 7:\n        case 8:\n            msg.payload = '0500';\n            break;\n\n        case 9:\n        case 10:\n        case 11:\n            msg.payload = '0800';\n            break;\n\n        case 12:\n        case 13:\n        case 14:\n            msg.payload = '1100';\n            break;\n\n        case 15:\n        case 16:\n        case 17:\n            msg.payload = '1400';\n            break;\n\n        case 18:\n        case 19:\n        case 20:\n            msg.payload = '1700';\n            break;\n\n        case 21:\n        case 22:\n        case 23:\n            msg.payload = '2000';\n            break;\n\n        //default:\n    }\n}\nelse { // 10분~59분의 경우 : 현재 시간의 데이터를 가져옴\n    switch (parseInt(data[0])) {\n\n        case 2:\n        case 3:\n        case 4:\n            msg.payload = '0200';\n            break;\n\n        case 5:\n        case 6:\n        case 7:\n            msg.payload = '0500';\n            break;\n\n        case 8:\n        case 9:\n        case 10:\n            msg.payload = '0800';\n            break;\n\n        case 11:\n        case 12:\n        case 13:\n            msg.payload = '1100';\n            break;\n\n        case 14:\n        case 15:\n        case 16:\n            msg.payload = '1400';\n            break;\n\n        case 17:\n        case 18:\n        case 19:\n            msg.payload = '1700';\n            break;\n\n        case 20:\n        case 21:\n        case 22:\n            msg.payload = '2000';\n            break;\n\n        case 23:\n            msg.payload = '2300';\n            break;\n        //default:\n    }\n}\nmsg.method = \"GET\";\nmsg.url = \"https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?serviceKey=hkqBSadVD%2F2ybxDvDKGfjBJwkRt49i6svd9tvaUUCa4nJ3bR%2Bs4nzAppnHH3KQDp8cXssHOvbVr%2BcmfTTaLqCQ%3D%3D&pageNo=1&numOfRows=1000&dataType=JSON&\"+\"base_date=\"+ rt + \"&base_time=\" + msg.payload + \"&nx=61&ny=121\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 780,
+        "wires": [
+            [
+                "4c584d9331d8eed2"
+            ]
+        ]
+    },
+    {
+        "id": "cac3f950af5a64e2",
+        "type": "inject",
+        "z": "98c3ce7cbc572f30",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "*/1 3-22 * * *",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 270,
+        "y": 860,
+        "wires": [
+            [
+                "ade31fd0be53ed4a"
+            ]
+        ]
+    },
+    {
+        "id": "3e2be83a241a2e1e",
+        "type": "debug",
+        "z": "98c3ce7cbc572f30",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "ade31fd0be53ed4a",
+        "type": "function",
+        "z": "98c3ce7cbc572f30",
+        "name": "function 1",
+        "func": "var timeAsString = new Date().toLocaleTimeString();\nvar ohoz = timeAsString.split(' ');\nvar data = ohoz[1].split(':');\nif (ohoz[0] == '오전') {\n    if(Number(data[0])<10){\n        msg.payload = '0' + data[0] + \" : \" + data[1];\n    }\n    else{\n        msg.payload = data[0] + \" : \" + data[1];\n    }\n} // 만약 오전 7:52일때 752로 출력되면 0752로 바꿔야함\nelse if (ohoz[0] == '오후') {\n    data[0] = Number(data[0]) + 12;\n}\nmsg.payload = msg.payload + \" uploded\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 860,
+        "wires": [
+            [
+                "3e2be83a241a2e1e",
+                "9e3faa34409effc7"
+            ]
+        ]
+    },
+    {
+        "id": "9e3faa34409effc7",
+        "type": "ui_text",
+        "z": "98c3ce7cbc572f30",
+        "group": "f947cf97d683b1bb",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 750,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "801c88a167b46741",
+        "type": "function",
+        "z": "98c3ce7cbc572f30",
+        "name": "month / temp",
+        "func": "var dateAsString = new Date().toLocaleDateString();\nvar datas = dateAsString.split('. ');\n//93 > 0903\n//1225\nif (Number(datas[2]) < 10) { // 10일보다 빠를 경우, 형식변환\n    datas[2] = '0' + datas[2];\n} // XX월 7일 : XX 7 > XX07\n\nif (Number(datas[1]) < 10) { // 10월보다 빠를경우, 형식변환\n    datas[1] = '0' + datas[1];\n}// 9월 XX일: 9XX > 09XX\n\nvar str = datas[0]+datas[1]+datas[2];\nvar rt = str[0]; \nfor (let index = 1; index < str.length-1; index++) {\n    rt = rt + str[index]; // 20231208\n    \n}\n\n//msg.payload = datas[1]; // month 출력 확인\n\nvar kdatas = msg.payload.split(',')\n\n\n\nswitch(Number(datas[1])){\n    case 12:\n    case 1:\n    case 2: // 겨울철의 경우\n        if(21<Number(kdatas[0])){\n            msg.payload = \"실내온도가 적정 온도보다 높습니다, 온도를 낮춰 주세요\";\n        }\n        else if(18>Number(kdatas[0])){\n            msg.payload = \"실내온도가 적정 온도보다 낮습니다, 온도를 높여 주세요\";\n        }\n        else{\n            msg.payload = \"실내온도가 적당합니다. 현재 상태를 유지해주세요\";\n        }\n        break;\n    case 3:\n    case 4:\n    case 5:\n    case 10:\n    case 11: // 봄, 가을의 경우\n        if(23<Number(kdatas[0])){\n            msg.payload = \"실내온도가 적정 온도보다 높습니다, 온도를 낮춰 주세요\";\n        }\n        else if(19>Number(kdatas[0])){\n            msg.payload = \"실내온도가 적정 온도보다 낮습니다, 온도를 높여 주세요\";\n        }\n        else{\n            msg.payload = \"실내온도가 적당합니다. 현재 상태를 유지해주세요\";\n        }\n        break;\n    case 6:\n    case 7:\n    case 8:\n    case 9: // 여름의 경우\n        if(27<Number(kdatas[0])){\n            msg.payload = \"실내온도가 적정 온도보다 높습니다, 온도를 낮춰 주세요\";\n        }\n        else if(24>Number(kdatas[0])){\n            msg.payload = \"실내온도가 적정 온도보다 낮습니다, 온도를 높여 주세요\";\n        }\n        else{\n            msg.payload = \"실내온도가 적당합니다. 현재 상태를 유지해주세요\";\n        }\n        break;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 200,
+        "wires": [
+            [
+                "da0b3f2c1dc17e91"
+            ]
+        ]
+    },
+    {
+        "id": "e3405d17077afde9",
+        "type": "inject",
+        "z": "98c3ce7cbc572f30",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 360,
+        "y": 1440,
+        "wires": [
+            [
+                "54b535ffb2e732f9"
+            ]
+        ]
+    },
+    {
+        "id": "54b535ffb2e732f9",
+        "type": "function",
+        "z": "98c3ce7cbc572f30",
+        "name": "month",
+        "func": "var dateAsString = new Date().toLocaleDateString();\nvar datas = dateAsString.split('. ');\n\nif (Number(datas[2]) < 10) { // 10일보다 빠를 경우, 형식변환\n    datas[2] = '0' + datas[2];\n} // XX월 7일 : XX 7 > XX07\n\nif (Number(datas[1]) < 10) { // 10월보다 빠를경우, 형식변환\n    datas[1] = '0' + datas[1];\n}// 9월 XX일: 9XX > 09XX\n\nvar str = datas[0]+datas[1]+datas[2];\nvar rt = str[0];\nfor (let index = 1; index < str.length-1; index++) {\n    rt = rt + str[index];\n    \n}\n\nmsg.payload = datas[1]; // month 출력 확인\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 1440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "da0b3f2c1dc17e91",
+        "type": "ui_text",
+        "z": "98c3ce7cbc572f30",
+        "group": "0223e60c91ea9150",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "실내 온도 조정 정보",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 820,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "ac3d2f9c1db8ae4b",
+        "type": "function",
+        "z": "98c3ce7cbc572f30",
+        "name": "month / humi",
+        "func": "var dateAsString = new Date().toLocaleDateString();\nvar datas = dateAsString.split('. ');\n\nif (Number(datas[2]) < 10) { // 10일보다 빠를 경우, 형식변환\n    datas[2] = '0' + datas[2];\n} // XX월 7일 : XX 7 > XX07\n\nif (Number(datas[1]) < 10) { // 10월보다 빠를경우, 형식변환\n    datas[1] = '0' + datas[1];\n}// 9월 XX일: 9XX > 09XX\n\nvar str = datas[0]+datas[1]+datas[2];\nvar rt = str[0];\nfor (let index = 1; index < str.length-1; index++) {\n    rt = rt + str[index];\n    \n}\n\n//msg.payload = datas[1]; // month 출력 확인\n\nvar kdatas = msg.payload.split(',')\n\n\n\nswitch(Number(datas[1])){\n    case 12:\n    case 1:\n    case 2: // 겨울철의 경우\n        if(45<Number(kdatas[1])){\n            msg.payload = \"실내습도가 적정 습도보다 높습니다, 습도를 낮춰 주세요\";\n        }\n        else if(35>Number(kdatas[1])){\n            msg.payload = \"실내습도가 적정 습도보다 낮습니다, 습도를 높여 주세요\";\n        }\n        else{\n            msg.payload = \"실내습도가 적당합니다. 현재 상태를 유지해주세요\";\n        }\n        break;\n    case 3:\n    case 4:\n    case 5:\n    case 10:\n    case 11: // 봄, 가을의 경우\n        if(55<Number(kdatas[1])){\n            msg.payload = \"실내습도가 적정 습도보다 높습니다, 습도를 낮춰 주세요\";\n        }\n        else if(45>Number(kdatas[1])){\n            msg.payload = \"실내습도가 적정 습도보다 낮습니다, 습도를 높여 주세요\";\n        }\n        else{\n            msg.payload = \"실내습도가 적당합니다. 현재 상태를 유지해주세요\";\n        }\n        break;\n    case 6:\n    case 7:\n    case 8:\n    case 9: // 여름의 경우\n        if(65<Number(kdatas[1])){\n            msg.payload = \"실내습도가 적정 습도보다 높습니다, 습도를 낮춰 주세요\";\n        }\n        else if(55>Number(kdatas[1])){\n            msg.payload = \"실내습도가 적정 습도보다 낮습니다, 습도를 높여 주세요\";\n        }\n        else{\n            msg.payload = \"실내습도가 적당합니다. 현재 상태를 유지해주세요\";\n        }\n        break;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 260,
+        "wires": [
+            [
+                "228b48193a071792"
+            ]
+        ]
+    },
+    {
+        "id": "228b48193a071792",
+        "type": "ui_text",
+        "z": "98c3ce7cbc572f30",
+        "group": "f947cf97d683b1bb",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "실내 습도 조정 정보",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 820,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "95ada4f3cc10b453",
+        "type": "function",
+        "z": "98c3ce7cbc572f30",
+        "name": "gas state",
+        "func": "var datas = msg.payload.split(',')\nif(Number(datas[2])<700){\n    msg.payload = \"실내 가스 농도가 정상입니다.\";\n}\nelse{\n    msg.payload = \"실내 공기가 탁합니다. 환기를 시켜주세요.\";\n    if(Number(datas[2])>3000){\n        msg.payload = \"실내 가스 누출이 의심됩니다.\";\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 320,
+        "wires": [
+            [
+                "2293acbb68b468d5"
+            ]
+        ]
+    },
+    {
+        "id": "2293acbb68b468d5",
+        "type": "ui_text",
+        "z": "98c3ce7cbc572f30",
+        "group": "0223e60c91ea9150",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "실내 가스 정보",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 800,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "8739fe7519927df7",
+        "type": "function",
+        "z": "98c3ce7cbc572f30",
+        "name": "function 2",
+        "func": "if(msg.payload.response.body.items.item[19].fcstValue < 40){\n    msg.payload = \"외출 시 우산을 챙길 필요가 없어보입니다.\" + \"  현재 강수 확률 : \"+ msg.payload.response.body.items.item[19].fcstValue + \" %\";\n    return msg;\n}\nelse{\n    msg.payload = \"외출 시 우산을 챙기는 것이 좋아보입니다. \" + \"  현재 강수 확률 : \" + msg.payload.response.body.items.item[19].fcstValue + \" %\";\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 780,
+        "wires": [
+            [
+                "f5ebdff4d0abb9a4"
+            ]
+        ]
+    },
+    {
+        "id": "f5ebdff4d0abb9a4",
+        "type": "ui_text",
+        "z": "98c3ce7cbc572f30",
+        "group": "2a8d565955f2505b",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "umbrella info",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 990,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "4c584d9331d8eed2",
+        "type": "http request",
+        "z": "98c3ce7cbc572f30",
+        "name": "",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 630,
+        "y": 780,
+        "wires": [
+            [
+                "8739fe7519927df7",
+                "af148b9b50d28c80"
+            ]
+        ]
+    },
+    {
+        "id": "af148b9b50d28c80",
+        "type": "debug",
+        "z": "98c3ce7cbc572f30",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "3a26608a55d21883",
+        "type": "http request",
+        "z": "98c3ce7cbc572f30",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 350,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    }
+]
