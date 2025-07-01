@@ -42,7 +42,8 @@
 
 ## 🎮 시연 영상 (Demo)
 
-![구동 예시 GIF](https://your-link.com/demo.gif)
+![Demo 1](./gifs/1.gif)
+![Demo 2](./gifs/2.gif)
 
 ---
 
