@@ -10,7 +10,7 @@
 
 * **마이크로컨트롤러**: ESP32 (Arduino 코드 기반)
 * **시각화 도구**: Node-RED Dashboard
-* **날씨 API 연동**: 기상청 KMA OpenAPI
+* **날씨 API 연동**: 기상청 공공 API
 * **통신 방식**: UART 시리얼 통신 (+ 향후 MQTT 확장 고려)
 
 ---
