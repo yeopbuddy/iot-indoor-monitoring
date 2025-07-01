@@ -106,15 +106,8 @@
 
 * `sense-arduino.ino` - 아두이노 센서 데이터 송신 코드
 * `node-red-flow.json` - Node-RED 플로우 전체 구조
+* * `./gifs` - Demo Gif 경로
 * `README.md` - 본 설명 파일
-
----
-
-## 📸 시연 이미지
-
-* 데모 GIF 1: ![Demo](./gifs/1.gif)
-* 데모 GIF 2: ![Demo](./gifs/2.gif)
-
 
 ---
 
